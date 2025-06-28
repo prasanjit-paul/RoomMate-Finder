@@ -27,6 +27,9 @@ function App() {
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
+    <footer>
+        <p>Room Partner &copy; 2025. All rights reserved.</p>
+    </footer>
     </>
   )
 }
