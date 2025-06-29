@@ -12,11 +12,13 @@ function App() {
     <>
     <Router>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/community">Community</Link>
-        <Link to="/career">Career</Link>
-        <Link to="/profile">Profile</Link>
+        <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/community">Community</Link></li>
+        <li><Link to="/career">Career</Link></li>
+        <li><Link to="/profile">Profile</Link></li>
+        </ul>
       </nav>
 
       <Routes>
